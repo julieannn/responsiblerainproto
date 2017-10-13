@@ -1,0 +1,121 @@
+/*
+stylesheet for index.html
+Colors used:
+#cbcc60 - light green (logo color)
+#e6e6e6 - light gray
+#333 - dark gray
+#ff4d4d - red color
+#ff6666 - lighter red color
+*/
+.decor{
+  background-image: url("images/img_parallax.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30px;
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.about{
+  margin-top: 30px;
+  padding: 30px;
+  font-size: 25px;
+  text-align: center;
+}
+.button{
+  margin-top: 10px;
+  width: 300px;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  background-color: #ff4d4d ;
+  color:white;
+  border-radius: 20px;
+  display: inline-block;
+}
+.button:hover{
+  background-color: #ff6666;
+}
+.services{
+  background-color: #ff4d4d;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+.services .col-xs-4{
+  padding: 30px;
+  font-size: 25px;
+}
+.serv1{
+  position: relative;
+  display: inline-block;
+  height: 300px;
+  width: 300px;
+  background-color: #4d4d4d;
+  margin: 50px;
+
+}
+.serv1 img{
+  opacity: .7;
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+}
+.serv1 img:hover{
+  opacity: 1;
+}
+
+.text1{
+  position: absolute;
+  font-size: 35px;
+  left: 100px;
+  top: 80px;
+}
+.test1{
+  padding: 30px;
+}
+.test1 img{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+}
+.custcontent{
+  font-size: 35px;
+  margin-top: 20px;
+  margin-left: 100px;
+  padding: 10px;
+  width: 80%
+  float: right;
+  display: inline-block;
+  position: absolute;
+}
+.test2{
+  padding: 30px;
+}
+.test2 img{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  display: inline-block;
+  float: right;
+  position: absolute;
+}
+.custcontent2{
+  font-size: 35px;
+  padding: 30px;
+  width: 80%;
+  display: inline-block;
+  position: relative;
+}
+.contact{
+  padding: 30px;
+  text-align: center;
+  font-size: 25px;
+  background-color: #cbcc60;
+}
